@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <div class="tabsPanel">
+    <div class="tabsPanel-links">
+      <a href="#!" class="active">Часы</a>
+      <a href="#!">Секундомер <span class="indicator"></span></a>
+      <a href="#!">Таймер</a>
+    </div>
+    <div class="tabsPanel-items">
+      <div class="tabsPanel-items__content active">
+        <div class="arrowClock">
+          <div class="arrowClock-number">
+            <div class="arrowClock-number__num num3">3</div>
+            <div class="arrowClock-number__num num6">6</div>
+            <div class="arrowClock-number__num num9">9</div>
+            <div class="arrowClock-number__num num12">12</div>
+            <div class="arrowClock-number__arr num1-7"></div>
+            <div class="arrowClock-number__arr num2-8"></div>
+            <div class="arrowClock-number__arr num4-10"></div>
+            <div class="arrowClock-number__arr num5-11"></div>
+          </div>
+          <div class="arrH"></div>
+          <div class="arrM"></div>
+          <div class="arrS"></div>
+        </div>
+        <div class="numberClock">
+          <div class="numberClock-num numH"><span>00</span>Час.</div>
+          <div class="numberClock-num numM"><span>00</span>Мин.</div>
+          <div class="numberClock-num numS"><span>00</span>Сек.</div>
+        </div>
+      </div>
+      <div class="tabsPanel-items__content">
+        <div class="stopWatch">
+          <div class="stopWatch-number">
+            <div class="stopWatch-number__num watchH"><span>00</span>Час.</div>
+            <div class="stopWatch-number__num watchM"><span>00</span>Мин.</div>
+            <div class="stopWatch-number__num watchS"><span>00</span>Сек.</div>
+            <div class="stopWatch-number__num watchMi"><span>00</span>Мил.</div>
+          </div>
+          <div class="stopWatch-btn">
+            <button type="button" class="start">start</button>
+            <button type="button" class="result">result</button>
+          </div>
+          <div class="stopWatch-result">
+            <p>00:00:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="tabsPanel-items__content">
+        <div class="timer">
+          <div class="timer-number">
+            <div class="timer-number__num timerH">
+              <input type="text" name="" placeholder="00">Час.
+            </div>
+            <div class="timer-number__num timerM">
+              <input type="text" name="" placeholder="00">Мин.
+            </div>
+            <div class="timer-number__num timerS">
+              <input type="text" name="" placeholder="00">Сек.
+            </div>
+            <div class="timer-number__num timerMi">
+              <input type="text" name="" placeholder="00">Мил.
+            </div>
+          </div>
+          <div class="timer-btn">
+            <button type="button" class="timer-start">start</button>
+            <button type="button" class="timer-clear">clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
